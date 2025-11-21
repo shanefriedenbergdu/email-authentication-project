@@ -1,0 +1,17 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=bankofamerica.test; i=@bankofamerica.test; q=dns/txt; s=default;
+ t=1762725093; h=from : to : subject;
+ bh=JjJ+Q5rjhE0PPEa9s6qQSo+D4WOj69vFOwR27R/lCQg=;
+ b=fTXJHkigJqqC34rXc9TguF2EZGwnGXOEkJVu+pg+LG4lUkrZfEu9avM84XogIk03NsRWk
+ TBeomgSLsHEZ+Y+b6w8Ksfd43VIvg7tLMySPOeYjI667i9DfeEookXnqhtphe/DNZUShSkv
+ crTStVYJFHwqufgUR0eh+oCxpeeSuppv7r0BBKRvG57Ta/z1q0V4+IplRL75d4BINMk9KPO
+ 5FrvEc2QXRbc9wjZtbFTkBlo9jWfPduW9SWpHAvFg7ZtK88GqAQA1gqpIKGUwFTDR2SbPFV
+ j+dewNB0p4+Q1/KN+y12l4ChFqI65W8erF6PMPvg6Uhq6tYNeDcpmLsVe/Lw==
+From: alerts@bankofamerica.test
+To: victim@local.test
+Subject: DKIM-Signed Email Test
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+This message includes DKIM protection.
